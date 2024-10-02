@@ -1,0 +1,4 @@
+What are the disadvantages of averaging word vectors for the document representation? Describe an idea to overcome this. The document vectors should be formed using word vectors.
+
+(i) Averaging word vectors does not consider the importance of different words in a single text. For example, the word 'the' is usually less important than the word 'cat'. We can assign a weight to each word vector, perhaps according to the frequency of the word in the text.
+(ii) Averaging word vectors does not consider the position of different words in the text. For example, the word 'cat' is more important in the sentence 'The cat is on the mat' than in the sentence 'The mat is on the cat'. We can assign a positional embedding to each word based on its position.
