@@ -1,4 +1,5 @@
 ## This Repo is for [UCSD 24Fall 291H Advanced Data-Driven Text Mining](https://shangjingbo1226.github.io/teaching/2024-fall-CSE291-DSC253-TM)
+### Author: [Zhecheng Li](https://github.com/Lizhecheng02) && Professor: [Jingbo Shang](https://shangjingbo1226.github.io/)
 
 ### Python Environment
 
@@ -27,7 +28,7 @@ export KAGGLE_KEY="your_api_key"
 sudo apt install unzip
 ```
 
-##### 1.3 Download datasets
+##### 1.3 Download datasets ([Link](https://kaggle.com/datasets/c4ada776d9cc4c0af88e420adf09b106c2ef1beb220e12c15c9ad1b9bc4917cb))
 
 ```bash
 kaggle datasets download -d lizhecheng/cse291h-hw-data
