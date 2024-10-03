@@ -12,8 +12,8 @@ pip install -r requirements.txt
 ### Prepare Data
 #### 1. HomeWork 1
 
-- You need to put ``nyt.csv`` and ``ag.csv`` under the **HomeWork1** folder.
-- You need to put ``glove.6B.100d.txt`` under the **HW1 - word2vec** folder.
+- You need to put the ``nyt.csv`` and ``ag.csv`` files under the **HomeWork1** folder.
+- You need to put the ``glove.6B.100d.txt`` file under the **HW1 - word2vec** folder.
 
 ##### 1.1 You can download all data using Kaggle Api
 
@@ -39,3 +39,9 @@ unzip cse291h-hw-data.zip
 #### 1. HomeWork 1
 
 You only need to run the corresponding ``.ipynb`` file for different tasks.
+
+### Code Explainations
+#### 1. HomeWork 1
+- You should fit your `vectorizer` only on the ``training dataset``; otherwise, it could lead to data leakage.
+- To fine-tune any transformer-based models on **HuggingFace**, you can either implement the training process from scratch with manual loss backpropagation (as shown in the `src.ipynb` file) or use the `Trainer` class with customizable parameters to complete the process (as shown in the `trainer.ipynb` file).
+- You can try different parameters for each ``.ipynb`` file and see how the results change.
