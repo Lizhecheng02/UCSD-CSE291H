@@ -1,0 +1,6 @@
+On <phrase_Q=0.804>Resolving</phrase> <phrase_Q=0.841>Schematic</phrase> Heterogeneity in <phrase_Q=0.887>Multidatabase Systems</phrase>.
+Requirements for a <phrase_Q=0.620>Performance Benchmark</phrase> for <phrase_Q=1.000>Object-Oriented</phrase> <phrase_Q=1.000>Database Systems</phrase>.
+On View Support in <phrase_Q=1.000>Object-Oriented</phrase> <phrase_Q=1.000>Databases</phrase> Systems.
+The POSC <phrase_Q=1.000>Solution</phrase> to Managing <phrase_Q=1.000>E</phrase>&<phrase_Q=0.840>P</phrase> <phrase_Q=1.000>Data</phrase>.
+<phrase_Q=1.000>C++</phrase> Bindings to an <phrase_Q=1.000>Object Database</phrase>.
+<phrase_Q=0.812>Authorization</phrase> in <phrase_Q=1.000>Object-Oriented</phrase> <phrase_Q=1.000>Databases</phrase>.
