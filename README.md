@@ -35,13 +35,24 @@ kaggle datasets download -d lizhecheng/cse291h-hw-data
 unzip cse291h-hw-data.zip
 ```
 
+#### 2. HomeWork 2
+
+- You only need to use the ``segmentation.txt`` file under the ``HW2/AutoPhrase`` folder.
+
 ### Run Codes
 #### 1. HomeWork 1
 
 You only need to run the corresponding ``.ipynb`` file for different tasks.
+
+#### 2. HomeWork 2
+
+You only need to run the ``src.ipynb`` file for all tasks.
 
 ### Code Explainations
 #### 1. HomeWork 1
 - You should fit your `vectorizer` only on the ``training dataset``; otherwise, it could lead to data leakage.
 - To fine-tune any transformer-based models on **HuggingFace**, you can either implement the training process from scratch with manual loss backpropagation (as shown in the `src.ipynb` file) or use the `Trainer` class with customizable parameters to complete the process (as shown in the `trainer.ipynb` file).
 - You can try different parameters for each ``.ipynb`` file and see how the results change.
+
+#### 2. HomeWork 2
+- After training Word2Vec, apply clustering to the vector embeddings of different phrases.
